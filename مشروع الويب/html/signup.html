@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Contact Me | Mazen Albahri</title>
+</head>
+<body class="animated-bg">
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Mazen Mohammed Hassan Albahri</h1>
+            <p>Cybersecurity Engineer & Web Developer</p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="protfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html" class="active">Contact Me</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Signup</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section class="card contact-card info-card">
+                <h2>Get In Touch</h2>
+                <p>Feel free to reach out through any of the platforms below, or use the contact form for any inquiries.</p>
+                
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><strong>City:</strong> Sana'a, Yemen</li>
+                    <li><strong>Email:</strong> <a href="mailto:hacker.mazen2025@gmail.com">hacker.mazen2025@gmail.com</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+967777588666">+967 777 588 666</a></li>
+                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/967777588666" target="_blank">Chat on WhatsApp</a></li>
+                </ul>
+
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="https://facebook.com/mazen.albahri" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/mazen_albahri" target="_blank">Twitter</a></li>
+                    <li><a href="https://linkedin.com/in/mazen-albahri" target="_blank">LinkedIn</a></li>
+                </ul>
+            </section>
+
+            <section class="card contact-card">
+                <h2>Contact Form</h2>
+                 <div id="form-message"></div>
+                <form id="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Mazen Mohammed Albahri. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
